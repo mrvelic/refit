@@ -5,6 +5,7 @@
     <TargetFrameworks>net461</TargetFrameworks>
     <GenerateDocumentationFile Condition=" '$(Configuration)' == 'Release' ">true</GenerateDocumentationFile>
     <DebugType>embedded</DebugType>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
